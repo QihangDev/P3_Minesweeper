@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang=”es”>
+
+<head>
+    <meta charset=”UTF-8″ />
+    <title>P3_Buscaminas</title>
+    <script src="scripts/main.js" type="module"></script>
+    <link rel="stylesheet" href="css/indexStyles.css" />
+    <link rel="icon" type="image" href="img/mine.png"/>
+</head>
+
+<body>
+    <header>
+        <img src="img/logoMina.png" alt="mine" />
+        <h1>P3 - BUSCAMINAS</h1>
+    </header>
+    <main id="juego">
+        <section id="secInicio">
+            <h2>INICIAR JUEGO:</h2>
+            <button id="botonEmpezar">Empezar</button>
+        </section>
+        <section id="secSaludos" hidden>
+            <h3 id="saludo"></h3>
+        </section>
+        <section id="secTablero" hidden>
+            <h2>Tablero:</h2>
+            <table id="tablero"></table>
+        </section>
+        <section id="secbotones" hidden>
+            <h2>Botones:</h2>
+            <div class="botones">
+                <button id="reiniciar">Reiniciar</button>
+                <button id="config">Configurar</button>
+                <button id="cambiar">Cambiar cuenta</button>
+                <button id="eliminarActual">Eliminar cuenta</button>
+                <button id="eliminarTodo">Eliminar todas las cuentas</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
